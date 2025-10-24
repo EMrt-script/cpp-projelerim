@@ -9,19 +9,19 @@ int main() {
 
     double finalnotu, arasinavnotu, odevnotu, donemsonunotu;
 
-    cout << "_____Dönem Sonu Notu Hesaplama Uygulamasý_____" << endl;
+    cout << "_____DÃ¶nem Sonu Notu Hesaplama UygulamasÃ½_____" << endl;
 
     cout << "Final notunuzu girin: ";
     cin >> finalnotu;
-    cout << "Ara Sýnav notunuzu girin: ";
+    cout << "Ara SÃ½nav notunuzu girin: ";
     cin >> arasinavnotu;
-    cout << "Ödev notunuzu girin: ";
+    cout << "Ã–dev notunuzu girin: ";
     cin >> odevnotu;
    
     donemsonunotu = (finalnotu * 0.50) + (arasinavnotu * 0.35) + (odevnotu * 0.15);
 
-    cout << "\n_____Sonuç_____" << endl;
-    cout << "Dönem Sonu Notunuz: " << fixed << setprecision(2) << donemsonunotu << endl;
+    cout << "\n_____SonuÃ§_____" << endl;
+    cout << "DÃ¶nem Sonu Notunuz: " << fixed << setprecision(2) << donemsonunotu << endl;
 
     if (donemsonunotu >= 50) {
         cout << "Durum: Gecti" <<endl;
